@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('images/jamie-street-hBzrr6m6-pc-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures the page takes up the full height of the viewport */
+}
+
+.container {
+    border: 2px solid #ccc; /* Border style and color */
+    padding: 20px; /* Add some padding inside the container */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+input[type="text"] {
+    width: 80%; /* Adjust the width as needed */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #555;
+}
